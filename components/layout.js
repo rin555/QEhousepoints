@@ -17,11 +17,13 @@ export default class extends React.Component{
                 </li>
                 <li className="nav-item">
                 <Link href= "/sportsform">
-                  <a className="nav-link" href="#" style={{color: 'red'}}>Sportsday Form</a> 
+                  <a className="nav-link" href="#" >Sportsday Form</a> 
                 </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link disabled" href="#">Disabled</a>
+                <Link href="/sportsreport">
+                  <a className="nav-link" href="#">Sportsday Report</a>
+                </Link>
                 </li>
               </ul>
               <form className="form-inline mt-2 mt-md-0">
